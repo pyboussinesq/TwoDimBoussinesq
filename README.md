@@ -9,4 +9,11 @@ a pythonic mpi-parallelizable solver for the 3D Boussinesq equations.
 * Gregory L. Wagner
 * Cesar B. Rocha
 
+# History
+TwoDimBoussinesq started as a script for solving the 2D (x-z) when Boussinesq equations
+when Cesar was fellow of the [WHOI GFD Program](https://www.whoi.edu/gfd/). This script
+was crafted in an afternoon hack. Its design partly builds on [pyqg](http://pyqg.readthedocs.org/en/stable/).
+The goal of this project is to take this script to the next level.
+
 # contributing 
+Contribution are very welcome.
