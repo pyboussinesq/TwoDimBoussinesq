@@ -13,7 +13,13 @@ a pythonic mpi-parallelizable solver for the 3D Boussinesq equations.
 TwoDimBoussinesq started as a script for solving the 2D (x-z) when Boussinesq equations
 when Cesar was fellow of the [WHOI GFD Program](https://www.whoi.edu/gfd/). This script
 was crafted in an afternoon hack. Its design partly builds on [pyqg](http://pyqg.readthedocs.org/en/stable/).
-The goal of this project is to take this script to the next level.
+
+The code is pseudo-spectral. Time-stepping is performed using a semi-implicit, low-storage RK3-theta method.
+
+# Future
+The goal of this project is to take this script to the next level, and ultimately generalizing the code
+to three-dimensions. The main motivation is to implement the code to study the physics of breaking 
+internal gravity waves.
 
 # contributing 
 Contribution are very welcome.
