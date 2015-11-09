@@ -1,7 +1,7 @@
 import numpy as np
 from numpy import pi, cos, sin, cosh, tanh
 import matplotlib.pyplot as plt
-import spectral_model as model
+from TwoDimBoussinesq import spectral_model as model
 
 sech = lambda x: 1./np.cosh(x)
 
