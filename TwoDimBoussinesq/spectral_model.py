@@ -296,7 +296,8 @@ class Boussinesq2d(object):
             self.ens = self._calc_ens()
             self.ani = self._calc_anisotropy()
             self.cfl = self._calc_cfl()
-            self.t, self.cfl, self.ke, self.pe, self.ens, self.ani
+            print "t= %e, cfl= %e, ke= %e, pe= %e, ens= %e, ani=%e" %(self.t, self.cfl, 
+                self.ke, self.pe, self.ens, self.ani)
             assert self.cfl<1., "CFL condition violated"
  
     def _init_save_snapshots(self,path):
