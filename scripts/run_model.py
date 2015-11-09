@@ -14,7 +14,7 @@ Reb = 100
 # the model object
 m = model.Boussinesq2d(Lx=2.*np.pi,nx=128, tmax = 10, dt = 0.001, \
         use_fftw=True,ntd=4,Fr=Fr,use_filter=True,tsave=100,
-        twrite=1,nu=Fr2/Reb,sig=1.e5,kf=25,
+        twrite=100,nu=Fr2/Reb,sig=1.e5,kf=25,
         save_snapshots=True,
         tsave_snapshots=1,
         ext_forc=True)
