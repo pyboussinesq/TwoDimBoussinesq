@@ -404,7 +404,7 @@ class Boussinesq2d(object):
         return ke.sum()
 
     def _calc_pe(self):
-        pe = .5*self.spec_var(self.bh/self.Fr2)
+        pe = .5*self.spec_var(self.bh/self.Fr)
         return pe.sum()
 
     def _calc_ens(self):
