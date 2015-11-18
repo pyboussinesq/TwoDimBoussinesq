@@ -1,0 +1,9 @@
+setup.py
+TwoDimBoussinesq/__init__.py
+TwoDimBoussinesq/spectral_model.py
+TwoDimBoussinesq.egg-info/PKG-INFO
+TwoDimBoussinesq.egg-info/SOURCES.txt
+TwoDimBoussinesq.egg-info/dependency_links.txt
+TwoDimBoussinesq.egg-info/not-zip-safe
+TwoDimBoussinesq.egg-info/requires.txt
+TwoDimBoussinesq.egg-info/top_level.txt

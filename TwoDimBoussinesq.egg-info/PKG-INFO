@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: TwoDimBoussinesq
+Version: 0.1.dev1
+Summary: A pythonian solver for 2D Boussinesq equations              analysis
+Home-page: .
+Author: The pyboussinesq team
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
